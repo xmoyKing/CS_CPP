@@ -1,0 +1,40 @@
+
+0. 当天所讲代码实现一遍
+
+1. 理解单例模式的实现原理，并掌握，做到随手能够写出来
+
+2. 理解new/delete机制，实现只能栈对象和只能生成堆对象代码
+
+3. 统计一篇英文(The_Holy_Bible.txt)文章中出现的单词和词频，
+   输入：某篇文章的绝对路径
+   输出：词典（词典中的内容为每一行都是一个“单词 词频”）
+ -----------------
+|   a 66          |
+|   abandon 77    |
+|   public 88     |
+|    ......	      |
+|_________________|
+
+	class WordStatic
+	{
+	public:
+	    void read_file(std::string filename);
+	    void write_file(std::string filename);
+	private:
+	    //......
+	};
+
+
+4. 将Linux下的互斥锁封装成一个MutexLock类，实现互斥锁中的加锁和解锁功能
+
+	class MutexLock
+	{
+	public:
+		MutexLock();
+		~MutexLock();
+		
+		void lock();
+		void unlock();
+	private:
+		//...补充数据成员
+	};

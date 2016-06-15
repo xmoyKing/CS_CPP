@@ -1,0 +1,8 @@
+2016-06-14 10:28:05,250: INFO RootCat :msg
+2016-06-14 10:28:05,251: ERROR RootCat :msg
+2016-06-14 10:28:05,251: WARN RootCat :msg
+2016-06-14 10:28:05,251: DEBUG RootCat :msg
+2016-06-14 10:38:35,085: INFO RootCat :msgQ2_mylog.cc
+2016-06-14 10:38:35,085: ERROR RootCat :msgQ2_mylog.cc
+2016-06-14 10:38:35,085: WARN RootCat :msgQ2_mylog.cc
+2016-06-14 10:38:35,085: DEBUG RootCat :msgQ2_mylog.cc
