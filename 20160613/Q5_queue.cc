@@ -43,7 +43,7 @@ int Queue::front(){
 
 int Queue::back(){
 	if(!empty())
-		return _arr[_rear-1];
+		return _arr[(_rear-1+SIZE)%SIZE];
 	else cout << "queue is empty" << endl;
 	return -1;
 }
